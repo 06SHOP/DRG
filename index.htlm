@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre Boutique</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="boutique.html">Boutique</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="suivi.html">Suivi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="vetements">
+            <!-- Vos vêtements seront affichés ici -->
+            <h2>Nos Vêtements</h2>
+            <div class="produits">
+                <!-- Exemple de produit -->
+                <div class="produit">
+                    <img src="vetement1.jpg" alt="Vêtement 1">
+                    <h3>Nom du produit</h3>
+                    <p>Prix: €XX.XX</p>
+                </div>
+                <!-- Ajoutez plus de produits ici -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>France | EU</p>
+    </footer>
+</body>
+</html>
